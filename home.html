@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayushi Sharma</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="dhr33ti.png" type="image/icon type">
+</head>
+<body>
+    <div class="sidebar">
+        <h1>Ayushi Sharma</h1>
+        <img src="https://media.licdn.com/dms/image/v2/C4D03AQGVtjr1ZgRqCg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1655616878273?e=1744848000&v=beta&t=6S6ijOeghIGO6hIi9WMedK0dJBs0xPh5H-zeGmlzBmk" alt="Ayushi Sharma">
+        <p>PhD in Computer Science | Researcher | Developer</p>
+        <button class="theme-toggle" onclick="toggleTheme()">
+            <i class="fas fa-moon"></i> Toggle Theme
+        </button>
+        <div class="social-links">
+            <a href="https://github.com/ais2397"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/ayushisharmax86"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/dhr33ti"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+
+    <div class="content">
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <!--<li><a href="#blog">Blog</a></li>-->
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p> I am currently pursuing a PhD in Electrical and Computer Engineering at Purdue University, focusing on Systems Security under the guidance of esteemed professors <a href="https://machiry.github.io/">Aravind Machiry</a> and <a href="https://www.badhomb.re/">Santiago Torres</a>. 
+            </p>
+            <p>My research interests lie in the intersection of systems security, embedded systems, and machine learning. I am passionate about developing secure and efficient systems that can be deployed in real-world scenarios.
+            </p>
+            <p>I also have had a strong presence in competitive cybersecurity, having participated in various Capture The Flag (CTF) competitions with <a href="https://bi0s.in/">Team Bi0s</a> and co-founding Team Shakti, India's first all-women CTF team. I am committed to promoting diversity in the tech field and have contributed to the cybersecurity community by organizing events like ShaktiCon and ShaktiCTF.
+            </p>
+            <p>
+                In addition to my research, I am passionate about cooking, philosophy, and mentorship. I enjoy sharing my knowledge with others and have mentored students in cybersecurity.</p>
+
+            <p>Interests: System Security, Binary Analysis, Vulnerability Research, Operating Systems, Supply Chain Security</p>
+        </section>
+        <section id="publications">
+            <h2>Publications</h2>
+            <div class="publications-list">
+                <div class="publication-card">
+                    <div class="pub-year">2025</div>
+                    <div class="pub-content">
+                        <h3>VERIBIN: Adaptive Verification of Patches at the Binary Level</h3>
+                        <p class="authors">Hongwei Wu, Jianliang Wu, Ruoyu Wu, <span class="highlight" style="text-decoration: underline; font-style: italic;"> Ayushi Sharma </span>, Aravind Machiry and Antonio Bianchi</p>
+                        <p class="venue">Network and Distributed System Security Symposium (NDSS 2025)</p>
+                        <div class="pub-tags">
+                            <span class="tag">Binary Patching</span>
+                        </div>
+                        <div class="pub-links">
+                            <a href="https://github.com/purseclab/VeriBin/blob/main/VeriBin.pdf" class="pub-link"><i class="fas fa-file-pdf"></i> PDF</a>
+                            <button class="pub-link bibtex-btn" onclick="toggleBibtex(this)">
+                                <i class="fas fa-quote-right"></i> BibTeX
+                            </button>
+                        </div>
+                        <div class="bibtex-content" style="display: none;">
+                            <pre><code>@inproceedings{wu2024veribin,
+                              title={VeriBin: Adaptive Verification of Patches at the Binary Level},
+                              author={Wu, Hongwei and Wu, Jianliang and Wu, Ruoyu and Sharma, Ayushi and Machiry, Aravind and Bianchi, Antonio},
+                              booktitle={Proceedings of the Network and Distributed System Security Symposium (NDSS)},
+                              year={2025}
+                            }
+                        </code></pre>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="publication-card">
+                    <div class="pub-year">2024</div>
+                    <div class="pub-content">
+                        <h3>Rust for Embedded Systems: Current State and Open Problems</h3>
+                        <p class="authors"><span class="highlight" style="text-decoration: underline; font-style: italic;">Ayushi Sharma</span>, Shashank Sharma, Ritvik Tanksalkar, Santiago Torres-Arias, Aravind Machiry</p>
+                        <p class="venue">ACM Conference on Computer and Communications Security (CCS 2024)</p>
+                        <div class="pub-tags">
+                            <span class="tag">Rust</span>
+                            <span class="tag">Embedded Systems</span>
+                        </div>
+                        <div class="pub-links">
+                            <a href="rustembedded.pdf" class="pub-link"><i class="fas fa-file-pdf"></i> PDF</a>
+                            <button class="pub-link bibtex-btn" onclick="toggleBibtex(this)">
+                                <i class="fas fa-quote-right"></i> BibTeX
+                            </button>
+                        </div>
+                        <div class="bibtex-content" style="display: none;">
+                            <pre><code>@inproceedings{10.1145/3658644.3690275,
+                            author = {Sharma, Ayushi and Sharma, Shashank and Tanksalkar, Sai Ritvik and Torres-Arias, Santiago and Machiry, Aravind},
+                            title = {Rust for Embedded Systems: Current State and Open Problems},
+                            year = {2024},
+                            isbn = {9798400706363},
+                            publisher = {Association for Computing Machinery},
+                            address = {New York, NY, USA},
+                            url = {https://doi.org/10.1145/3658644.3690275},
+                            doi = {10.1145/3658644.3690275},
+                            abstract = {Embedded software is used in safety-critical systems such as medical devices and autonomous vehicles, where software defects, including security vulnerabilities, have severe consequences. Most embedded codebases are developed in unsafe languages, specifically C/C++, and are riddled with memory safety vulnerabilities. To prevent such vulnerabilities, Rust, a performant memory-safe systems language, provides an optimal choice for developing embedded software. Rust interoperability enables developing Rust applications on top of existing C codebases. Despite this, even the most resourceful organizations continue to develop embedded software in C/C++.  This paper performs the first systematic study to holistically understand the current state and challenges of using Rust for embedded systems. Our study is organized across three research questions. We collected a dataset of 6,408 Rust embedded software spanning various categories and 6 Static Application Security Testing (SAST) tools. We performed a systematic analysis of our dataset and surveys with 225 developers to investigate our research questions. We found that existing Rust software support is inadequate, SAST tools cannot handle certain features of Rust embedded software, resulting in failures, and the prevalence of advanced types in existing Rust software makes it challenging to engineer interoperable code. In addition, we found various challenges faced by developers in using Rust for embedded systems development.},
+                            booktitle = {Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security},
+                            pages = {2296–2310},
+                            numpages = {15},
+                            keywords = {deep embedded systems, rust, security},
+                            location = {Salt Lake City, UT, USA},
+                            series = {CCS '24}
+                            }</code></pre>
+                        </div>
+                    </div>
+                <div class="pub-content">
+                    <h3>Aunor: Converting Rust crates to [no_std] at scale (Poster)</h3>
+                    <p class="authors">Shashank Sharma, <span class="highlight" style="text-decoration: underline; font-style: italic;">Ayushi Sharma</span>, Aravind Machiry</p>
+                    <p class="venue">ACM Conference on Data and Application Security and Privacy 2024</p>
+                    <div class="pub-tags">
+                        <span class="tag">Rust</span>
+                        <span class="tag">Embedded Systems</span>
+                    </div>
+                    <div class="pub-links">
+                        <a href="https://dl.acm.org/doi/abs/10.1145/3626232.3658640" class="pub-link"><i class="fas fa-file-pdf"></i> PDF</a>
+                        <button class="pub-link bibtex-btn" onclick="toggleBibtex(this)">
+                            <i class="fas fa-quote-right"></i> BibTeX
+                        </button>
+                    </div>
+                    <div class="bibtex-content" style="display: none;">
+                        <pre><code>
+                            @inproceedings{10.1145/3626232.3658640,
+                            author = {Sharma, Shashank and Sharma, Ayushi and Machiry, Aravind},
+                            title = {Aunor: Converting Rust crates to [no_std] at scale},
+                            year = {2024},
+                            isbn = {9798400704215},
+                            publisher = {Association for Computing Machinery},
+                            address = {New York, NY, USA},
+                            url = {https://doi.org/10.1145/3626232.3658640},
+                            doi = {10.1145/3626232.3658640},
+                            abstract = {Rust's high-performance memory safety features help eliminate an entire class of vulnerabilities, making it an attractive choice for mission-critical applications. Another important advantage of using Rust is the availability of a large number of libraries, i.e., crates, that make it easy to develop applications in Rust. However, crates need to be specially designed, i.e., no_std compatible, to be usable on embedded systems. Unfortunately, the majority of the crates are not no_std compatible. In this work, we tackle this problem by developing an automated code refactoring tool, Aunor, to specialize a given crate to be no_std compatible in a valid and backward compatible manner. Our preliminary evaluation shows Aunor is effective and could automatically convert 318 crates.},
+                            booktitle = {Proceedings of the Fourteenth ACM Conference on Data and Application Security and Privacy},
+                            pages = {163–165},
+                            numpages = {3},
+                            keywords = {embedded systems, rust, static analysis},
+                            location = {Porto, Portugal},
+                            series = {CODASPY '24}
+                            }
+                        </code></pre>
+                    </div> 
+                </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Sys2syz</h3>
+                    <p>Improved Syzkaller kernel fuzzer efficiency by automating grammar extraction for IOCTL and system calls in kernel source, enhancing fuzzing of NetBSD and Linux kernels and increasing code coverage.</p>
+                    <div class="project-tags">
+                        <span class="tag">Fuzzing</span>
+                        <span class="tag">Python</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/ais2397/sys2syz" class="project-link"><i class="fab fa-github"></i> View Code</a>
+                        <a href="https://blog.netbsd.org/tnf/entry/google_summer_of_code_20202" class="project-link"><i class="fas fa-external-link-alt"></i> Learn More</a>
+                    </div>
+                </div>
+                          
+                <div class="project-card">
+                    <h3>R0fuzz</h3>
+                    <p>A collaborative fuzzer that employed mutation and grammar-based fuzzing techniques to uncover
+                        vulnerabilities in Industrial Control System (ICS) Protocols, specifically DNP3 and MODBUS</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">ICS Protocols</span>
+                        <span class="tag">Fuzzing</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/AshwAthi8/R0fuzz" class="project-link"><i class="fab fa-github"></i> View Code</a>
+                        <!--<a href="#" class="project-link"><i class="fas fa-book"></i> Publication</a>-->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--<section id="blog">
+            <h2>Blog</h2>
+            <p>My recent learnings.</p>
+        </section>-->
+
+        <section id="news">
+            <h2>News</h2>
+            <p>Latest updates</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: ayushi.inbox@gmail.com</p>
+            <p>GitHub: <a href="https://github.com/ais2397">github.com/ais2397</a></p>
+        </section>
+
+        <footer>
+            <p>&copy; 2025. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
