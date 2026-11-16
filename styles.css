@@ -341,3 +341,13 @@ footer {
         align-items: center;
     }
 }
+
+/* News list */
+.news-list {
+    list-style: none;
+    padding: 0;
+}
+.news-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
