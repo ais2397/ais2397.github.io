@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ayushi Sharma</title>
+    <meta name="description" content="Ayushi Sharma, PhD student in ECE at Purdue University working on systems security, embedded systems and Rust.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="dhr33ti.png" type="image/icon type">
@@ -20,6 +21,10 @@
             <a href="https://github.com/ais2397"><i class="fab fa-github"></i></a>
             <a href="https://linkedin.com/in/ayushisharmax86"><i class="fab fa-linkedin"></i></a>
             <a href="https://twitter.com/dhr33ti"><i class="fab fa-twitter"></i></a>
+            <a href="https://scholar.google.com/citations?user=w5t2TS8AAAAJ" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+            <a href="https://orcid.org/0009-0008-8967-8016" title="ORCID"><i class="fab fa-orcid"></i></a>
+            <!-- Add your CV: upload cv.pdf to the repo, then uncomment -->
+            <!-- <a href="cv.pdf" title="CV"><i class="fas fa-file-alt"></i></a> -->
         </div>
     </div>
 
@@ -27,6 +32,7 @@
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
+                <li><a href="#publications">Publications</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <!--<li><a href="#blog">Blog</a></li>-->
                 <li><a href="#news">News</a></li>
@@ -36,7 +42,7 @@
 
         <section id="about">
             <h2>About Me</h2>
-            <p> I am currently pursuing a PhD in Electrical and Computer Engineering at Purdue University, focusing on Systems Security under the guidance of esteemed professors <a href="https://machiry.github.io/">Aravind Machiry</a> and <a href="https://www.badhomb.re/">Santiago Torres</a>. 
+            <p> I am currently pursuing a PhD in Electrical and Computer Engineering at Purdue University, focusing on Systems Security advised by Prof. <a href="https://machiry.github.io/">Aravind Machiry</a> and Prof. <a href="https://www.badhomb.re/">Santiago Torres-Arias</a>. 
             </p>
             <p>My research interests lie in the intersection of systems security, embedded systems, and machine learning. I am passionate about developing secure and efficient systems that can be deployed in real-world scenarios.
             </p>
@@ -51,6 +57,37 @@
             <h2>Publications</h2>
             <div class="publications-list">
                 <div class="publication-card">
+                    <div class="pub-year">2026</div>
+                    <div class="pub-content">
+                        <h3>Landseer: Exploring the Machine Learning Defense Landscape</h3>
+                        <p class="authors"><span class="highlight" style="text-decoration: underline; font-style: italic;">Ayushi Sharma</span>, Rosemary Agbozo, Santiago Torres-Arias, Zahra Ghodsi</p>
+                        <p class="venue">arXiv preprint, 2026</p>
+                        <div class="pub-tags">
+                            <span class="tag">Machine Learning Security</span>
+                        </div>
+                        <div class="pub-links">
+                            <a href="https://arxiv.org/abs/2605.27148" class="pub-link"><i class="fas fa-file-pdf"></i> arXiv</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="publication-card">
+                    <div class="pub-year">2026</div>
+                    <div class="pub-content">
+                        <h3>An Empirical Study of the TianoCore Community</h3>
+                        <p class="authors">Nazanin Siavash, Connor Glosner, <span class="highlight" style="text-decoration: underline; font-style: italic;">Ayushi Sharma</span>, Bianca Trinkenreich, Terrance E. Boult, Aravind Machiry, Armin Moin</p>
+                        <p class="venue">arXiv preprint, 2026</p>
+                        <div class="pub-tags">
+                            <span class="tag">Firmware</span>
+                            <span class="tag">Open Source</span>
+                        </div>
+                        <div class="pub-links">
+                            <a href="https://arxiv.org/abs/2608.23280" class="pub-link"><i class="fas fa-file-pdf"></i> arXiv</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="publication-card">
                     <div class="pub-year">2025</div>
                     <div class="pub-content">
                         <h3>VERIBIN: Adaptive Verification of Patches at the Binary Level</h3>
@@ -60,7 +97,10 @@
                             <span class="tag">Binary Patching</span>
                         </div>
                         <div class="pub-links">
-                            <a href="https://github.com/purseclab/VeriBin/blob/main/VeriBin.pdf" class="pub-link"><i class="fas fa-file-pdf"></i> PDF</a>
+                            <a href="https://www.ndss-symposium.org/ndss-paper/veribin-adaptive-verification-of-patches-at-the-binary-level/" class="pub-link"><i class="fas fa-file-pdf"></i> PDF</a>
+                            <a href="https://github.com/purseclab/VeriBin" class="pub-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://www.ndss-symposium.org/wp-content/uploads/11B-s0359-Wu.pdf" class="pub-link"><i class="fas fa-chalkboard"></i> Slides</a>
+                            <a href="https://www.youtube.com/watch?v=1rlh8esIElM" class="pub-link"><i class="fab fa-youtube"></i> Talk</a>
                             <button class="pub-link bibtex-btn" onclick="toggleBibtex(this)">
                                 <i class="fas fa-quote-right"></i> BibTeX
                             </button>
@@ -81,14 +121,17 @@
                     <div class="pub-year">2024</div>
                     <div class="pub-content">
                         <h3>Rust for Embedded Systems: Current State and Open Problems</h3>
-                        <p class="authors"><span class="highlight" style="text-decoration: underline; font-style: italic;">Ayushi Sharma</span>, Shashank Sharma, Ritvik Tanksalkar, Santiago Torres-Arias, Aravind Machiry</p>
+                        <p class="authors"><span class="highlight" style="text-decoration: underline; font-style: italic;">Ayushi Sharma</span>*, Shashank Sharma*, Sai Ritvik Tanksalkar, Santiago Torres-Arias, Aravind Machiry</p>
                         <p class="venue">ACM Conference on Computer and Communications Security (CCS 2024)</p>
+                        <p class="authors" style="font-size: 0.85em;">* Equal contribution</p>
                         <div class="pub-tags">
                             <span class="tag">Rust</span>
                             <span class="tag">Embedded Systems</span>
                         </div>
                         <div class="pub-links">
                             <a href="rustembedded.pdf" class="pub-link"><i class="fas fa-file-pdf"></i> PDF</a>
+                            <a href="https://arxiv.org/abs/2311.05063" class="pub-link"><i class="fas fa-book"></i> Extended Report</a>
+                            <a href="https://zenodo.org/records/12775715" class="pub-link"><i class="fas fa-database"></i> Dataset</a>
                             <button class="pub-link bibtex-btn" onclick="toggleBibtex(this)">
                                 <i class="fas fa-quote-right"></i> BibTeX
                             </button>
@@ -113,10 +156,14 @@
                             }</code></pre>
                         </div>
                     </div>
+                </div>
+
+                <div class="publication-card">
+                    <div class="pub-year">2024</div>
                 <div class="pub-content">
                     <h3>Aunor: Converting Rust crates to [no_std] at scale (Poster)</h3>
                     <p class="authors">Shashank Sharma, <span class="highlight" style="text-decoration: underline; font-style: italic;">Ayushi Sharma</span>, Aravind Machiry</p>
-                    <p class="venue">ACM Conference on Data and Application Security and Privacy 2024</p>
+                    <p class="venue">ACM Conference on Data and Application Security and Privacy (CODASPY 2024)</p>
                     <div class="pub-tags">
                         <span class="tag">Rust</span>
                         <span class="tag">Embedded Systems</span>
@@ -192,17 +239,23 @@
 
         <section id="news">
             <h2>News</h2>
-            <p>Latest updates</p>
+            <ul class="news-list">
+                <li><strong>Aug 2026</strong> &mdash; Preprint: <a href="https://arxiv.org/abs/2608.23280">An Empirical Study of the TianoCore Community</a>.</li>
+                <li><strong>May 2026</strong> &mdash; Preprint: <a href="https://arxiv.org/abs/2605.27148">Landseer: Exploring the Machine Learning Defense Landscape</a>.</li>
+                <li><strong>Feb 2025</strong> &mdash; <a href="https://www.ndss-symposium.org/ndss-paper/veribin-adaptive-verification-of-patches-at-the-binary-level/">VeriBin</a> presented at NDSS 2025, San Diego.</li>
+                <li><strong>Oct 2024</strong> &mdash; <a href="https://doi.org/10.1145/3658644.3690275">Rust for Embedded Systems</a> published at ACM CCS 2024, Salt Lake City.</li>
+                <li><strong>2024</strong> &mdash; Aunor poster at ACM CODASPY 2024, Porto.</li>
+            </ul>
         </section>
 
         <section id="contact">
             <h2>Contact</h2>
-            <p>Email: ayushi.inbox@gmail.com</p>
+            <p>Email: sharm616 [at] purdue [dot] edu &middot; ayushi.inbox [at] gmail [dot] com</p>
             <p>GitHub: <a href="https://github.com/ais2397">github.com/ais2397</a></p>
         </section>
 
         <footer>
-            <p>&copy; 2025. All rights reserved.</p>
+            <p>Last updated: November 2026</p>
         </footer>
     </div>
     <script src="script.js"></script>
